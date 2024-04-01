@@ -1,0 +1,88 @@
+body {
+    background-color:  rgb(117, 47, 163);
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#container{
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    margin:150px 250px;
+    padding: 15px;
+    border-radius: 20px;
+}
+span {
+    color: rgba(255, 255, 255, 0.884);
+}
+#form  {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 60px;
+}
+#add ,button{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: black solid 0px;
+    font-size: bolder;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .2s linear;
+    margin: 0px 40px;
+}
+
+#add:hover ,button:hover{
+    background-color:rgb(117, 47, 163);
+    border: white solid 1px;
+    cursor: pointer;
+}
+#input{
+    height: 40px;
+    width: 300px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    transition: .2s linear;
+    text-align: center;
+}
+#input:focus {
+    background-color: rgb(117, 47, 163);
+
+}
+#input::placeholder {
+    color :rgba(0, 0, 0, 0.404);
+    text-align: center;
+}
+a {
+    display: flex;
+    color:white;
+    justify-self: flex-end;
+    text-decoration: none;
+    font-size: 17px;
+    width: 110px;
+}
+a:hover {
+    color: white;
+    font-weight: bold;
+}
+div div {
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    margin:20px 250px;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#result {
+    margin: 0 0;
+    justify-content: space-around;
+}
+p {
+    color :white;
+}
+#year,#day,#month {
+    color: rgb(117, 47, 163);
+    font-size: 25px;
+}
